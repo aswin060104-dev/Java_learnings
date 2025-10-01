@@ -1,0 +1,31 @@
+javac filename.java - converts to byte code
+java filename - jvm (Java virutual machine) - converts to machine readable code and executed
+main() - entry point like index.js
+
+Variables - containers
+int, string ""
+
+system.out - Java.lang.system
+This 'System' connects to the terminal
+
+java.util.Scanner
+Scanner
+
+integer followed by string needs a scan.nextLine();
+
+statically typed language
+
+String, object, class objects
+
+memory allocation, int - 4 bytes, long - 8 bytes
+default decimals are doubles - 6,7, float - 15
+char ''
+String - object , sequence of character , string index out of bound
+boolean - true, false
+
+operators, 
+
+stack - quick access
+heap - objects, string pool stores String object
+
+equals() - method
