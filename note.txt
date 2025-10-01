@@ -10,6 +10,7 @@ This 'System' connects to the terminal
 
 java.util.Scanner
 Scanner
+Scanner scan = new Scanner(System.in)
 
 integer followed by string needs a scan.nextLine();
 
@@ -28,4 +29,107 @@ operators,
 stack - quick access
 heap - objects, string pool stores String object
 
-equals() - method
+compares with reference
+a.equals(b) - method
+
+logical operators
+
+array - only stores same type data 
+String[] strArray = new String[n]
+
+class and objects
+object creation - className name = new className()
+
+functions can be created using void
+every thing in the class can be accessed only using the object
+
+static can call static functions only
+functions with parameters
+return nothings if function is void
+method overloading
+same functions with different number of parameters
+
+forEach loop 
+for(int v : intArray)
+
+Eclispse installation
+
+constructor - It will initialize the objects
+className(){
+
+}
+parameterized constructor
+constructor overloading can be possible
+this represenst the current object methods and properties
+
+extends
+
+types of inheritance
+
+super keyword - used to access its parents property
+parents class initialize first because child uses its property
+
+abstract method and abstract class
+abstract method must be in a abstract class and  it must be defined in its child classes
+
+access modifier
+private - only accessable only inside its class
+public - accessible anywhere even diff packages
+default - only inside its packages
+protected - same packages, only accessible through subclass in another packages
+
+need to do with class access modifiers
+
+Static keyword:
+static members are shared among all members of the instances. so it is based on class
+but non-static are depends are objects
+
+static variables must be accessed using class name
+static block - executed only for the first time
+static functions
+
+final - constant
+
+variable 
+method - can't be overrided, 
+class - this classes can't be extended furthur
+
+Interface 
+methods which are implictly abstract
+variables are implictly public static final
+
+default or static methods can have definitions
+
+functional interface - contains one methods
+lambda expression = classname var = -> {
+
+}
+
+exception
+
+finally - closing resources, files
+
+throw
+throw new ArthematicException
+
+custom exception 
+extends exception handling 
+
+File reading writing
+java.io
+FileWriter - directly writes in the file
+BufferedWriter - used to store each character values at memory and writes at a single time
+FileReader - reads character by character and stored it in a int variable.
+If value is -1 then all values are read
+
+BufferReader - reads line by line. End will be denoted as null
+
+Threads
+extends Thread class, must have run method method
+run() can be used to call thread methods.
+
+join() - acts as await. Waits for the previous to complete.
+
+runnable
+creating thread from interface
+thread implements runnable
